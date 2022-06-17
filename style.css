@@ -187,3 +187,63 @@ nav ul li a:hover{
 .text-center{
     text-align: center;
 }
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 260px;
+    background-color: var(--bgColor-2);
+    border-radius: 20px;
+    padding: 1.3rem 2rem;
+    text-align: center;
+}
+.card em{
+    font-size: 3.12rem;
+    text-align: center;
+    color: var(--primaryColor);
+    margin: 2rem;
+}
+
+
+.skills{
+    background-color: var(--bgColor-2);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .container-img{
+    width: 50%;
+}
+
+.skills .container-img img{
+    width: 100%;
+}
+
+.skills .content-skills{
+    width: 60%;
+}
+
+.content-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill{
+    width: 90px;
+    height: 90px;
+    background-color: var(--lightColor);
+    border-radius: 50%;
+    margin: 0 2rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill img{
+    width: 70%;
+}
